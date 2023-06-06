@@ -13,6 +13,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(Eigen3)
 find_package(geometry_msgs REQUIRED)
+find_package(trajectory_msgs REQUIRED)
 
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -35,6 +36,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   DEPENDENCIES
   geometry_msgs
+  trajectory_msgs
 )
 
 install(DIRECTORY

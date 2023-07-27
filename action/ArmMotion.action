@@ -1,7 +1,11 @@
 # Goal position:
 trajectory_msgs/JointTrajectory waypoints
 bool use_wp_times
-string wp_type
+int16 wp_type
+
+# Waypoint types
+int16 JOINT_SPACE = 0
+int16 CARTESIAN_SPACE = 1
 
 # Optionally, set a color when doing the move; otherwise, clear the color.
 bool set_color

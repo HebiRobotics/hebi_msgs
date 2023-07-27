@@ -17,22 +17,11 @@ find_package(trajectory_msgs REQUIRED)
 
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/EndPath.msg"
-  "msg/FlipperVelocityCommand.msg"
-  "msg/OffsetPlayback.msg"
-  "msg/Playback.msg"
-  "msg/SaveWaypoint.msg"
-  "msg/StartPath.msg"
-  "msg/TargetWaypoints.msg"
-  "msg/TreadedBaseState.msg"
-
-  "srv/SetCommandLifetime.srv"
-  "srv/SetFeedbackFrequency.srv"
-  "srv/SetGains.srv"
-  "srv/SetIKSeed.srv"
-
   "action/ArmMotion.action"
   "action/BaseMotion.action"
+
+  "msg/TreadedBaseState.msg"
+  "msg/FlipperVelocityCommand.msg"
 
   DEPENDENCIES
   geometry_msgs
@@ -42,7 +31,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 install(DIRECTORY
   action
   msg
-  srv
   DESTINATION share/${PROJECT_NAME})
 
 if(BUILD_TESTING)

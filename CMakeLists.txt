@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   "msg/TreadedBaseState.msg"
   "msg/FlipperVelocityCommand.msg"
+  "msg/ArmHybridControl.msg"
 
   DEPENDENCIES
   geometry_msgs

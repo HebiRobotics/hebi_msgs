@@ -22,7 +22,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   "msg/TreadedBaseState.msg"
   "msg/FlipperVelocityCommand.msg"
-  "msg/ArmHybridControl.msg"
   "msg/MobileInput.msg"
 
   "srv/SetLayoutFile.srv"

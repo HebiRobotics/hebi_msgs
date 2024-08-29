@@ -6,7 +6,7 @@ if(NOT CMAKE_CXX_STANDARD)
 endif()
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
+  add_compile_options(-Wall -Wextra)
 endif()
 
 # find dependencies
@@ -22,6 +22,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   "msg/TreadedBaseState.msg"
   "msg/FlipperVelocityCommand.msg"
+  "msg/MobileInput.msg"
+
+  "srv/SetLayoutFile.srv"
+  "srv/SetLayoutJSON.srv"
 
   DEPENDENCIES
   geometry_msgs

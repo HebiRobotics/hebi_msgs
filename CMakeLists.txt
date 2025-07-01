@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TreadedBaseState.msg"
   "msg/FlipperVelocityCommand.msg"
   "msg/MobileInput.msg"
+  "msg/SE3Jog.msg"
 
   "srv/SetLayoutFile.srv"
   "srv/SetLayoutJSON.srv"

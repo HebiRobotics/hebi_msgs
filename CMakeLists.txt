@@ -24,6 +24,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FlipperVelocityCommand.msg"
   "msg/MobileInput.msg"
   "msg/SE3Jog.msg"
+  "msg/SE3TrajectoryPoint.msg"
+  "msg/SE3Trajectory.msg"
 
   "srv/SetLayoutFile.srv"
   "srv/SetLayoutJSON.srv"

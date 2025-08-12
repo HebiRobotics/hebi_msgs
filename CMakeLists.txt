@@ -17,7 +17,8 @@ find_package(trajectory_msgs REQUIRED)
 
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "action/ArmMotion.action"
+  "action/ArmJointMotion.action"
+  "action/ArmSE3Motion.action"
   "action/BaseMotion.action"
 
   "msg/TreadedBaseState.msg"

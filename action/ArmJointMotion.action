@@ -1,0 +1,13 @@
+# Goal position:
+trajectory_msgs/JointTrajectory waypoints
+bool use_wp_times
+
+# Optionally, set a color when doing the move; otherwise, clear the color.
+bool set_color
+uint8 r
+uint8 g
+uint8 b
+---
+bool success
+---
+float64 percent_complete

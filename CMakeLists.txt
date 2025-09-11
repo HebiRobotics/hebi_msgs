@@ -30,6 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   "srv/SetLayoutFile.srv"
   "srv/SetLayoutJSON.srv"
+  "srv/SetPluginEnabled.srv"
 
   DEPENDENCIES
   geometry_msgs

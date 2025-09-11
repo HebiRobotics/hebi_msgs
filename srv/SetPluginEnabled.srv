@@ -1,0 +1,5 @@
+string plugin_name
+bool enabled
+---
+bool success
+string message

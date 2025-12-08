@@ -21,12 +21,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/ArmSE3Motion.action"
   "action/BaseMotion.action"
 
-  "msg/TreadedBaseState.msg"
-  "msg/FlipperVelocityCommand.msg"
   "msg/MobileInput.msg"
   "msg/SE3Jog.msg"
   "msg/SE3TrajectoryPoint.msg"
   "msg/SE3Trajectory.msg"
+  "msg/TreadedBaseState.msg"
+  "msg/TreadyFlipperVelocityCommand.msg"
+  "msg/TreadyTorqueModeCommand.msg"
 
   "srv/SetLayoutFile.srv"
   "srv/SetLayoutJSON.srv"

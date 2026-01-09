@@ -12,3 +12,8 @@ float64 dyaw
 
 # Duration to execute the jog command
 float64 duration
+
+# Whether to constrain end-effector orientation (default: false for cartesian_jog)
+# If false, only position is controlled and orientation is free
+# If true, orientation will be maintained at current orientation
+bool constrain_orientation

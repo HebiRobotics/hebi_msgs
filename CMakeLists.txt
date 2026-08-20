@@ -28,6 +28,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TreadedBaseState.msg"
   "msg/TreadyFlipperVelocityCommand.msg"
   "msg/TreadyTorqueModeCommand.msg"
+  "msg/HapticHandleState.msg"
 
   "srv/SetLayoutFile.srv"
   "srv/SetLayoutJSON.srv"

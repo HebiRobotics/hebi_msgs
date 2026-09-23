@@ -74,6 +74,10 @@ This package provides ROS 2 interface definitions for HEBI-specific communicatio
   - Request: `layout_json` (string)
   - Response: `success` (bool)
 
+- **[SetGainsFile.srv](srv/SetGainsFile.srv)** - Set new gains from file
+  - Request: `gains_file_uri` (string)
+  - Response: `success` (bool)
+
 ### Actions (3)
 
 - **[ArmJointMotion.action](action/ArmJointMotion.action)** - Joint space arm motion

@@ -1,0 +1,4 @@
+# format: package://<package_name>/path/to/file
+string gains_file_uri
+---
+bool success

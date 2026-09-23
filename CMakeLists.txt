@@ -30,6 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TreadyTorqueModeCommand.msg"
   "msg/HapticHandleState.msg"
 
+  "srv/SetGainsFile.srv"
   "srv/SetLayoutFile.srv"
   "srv/SetLayoutJSON.srv"
   "srv/SetPluginEnabled.srv"

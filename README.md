@@ -53,6 +53,13 @@ This package provides ROS 2 interface definitions for HEBI-specific communicatio
   - `torque_angle`: Angle between 0 and π/2
   - `roll_adjust`, `pitch_adjust`: Adjustment values (0.0 to 1.0)
 
+- **[HapticHandleState.msg](msg/HapticHandleState.msg)** - Feedback state data from a HEBI haptic arm 
+  - `header`: Standard message header
+  - `pose`: Position (x,y,z) and Orientation (x,y,z,w)
+  - `velocity`: Linear and angular velocity for tracking physics
+  - `axes`: Current state of any joystick/analog inputs on the haptic's handle
+  - `buttons`: Current state of any buttons/digital inputs on the haptic's handle
+
 #### Mobile IO
 
 - **[MobileInput.msg](msg/MobileInput.msg)** - Mobile IO device input
